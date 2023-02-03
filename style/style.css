@@ -6,6 +6,32 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* nav */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    margin-right: 50px;
+    color: #F15B22;
+    align-items: center;
+
+}
+nav li:hover{
+    background-color: lightblue;
+    padding: 0 6px;
+}
+
+/* banner */
+
 .banner-new{
     position: absolute;
     display: flex;
@@ -25,6 +51,7 @@
     text-align: right;
 top: 216px;
 right: 230px;
+
 
 }
 
@@ -91,6 +118,11 @@ ul li {
 }
 
 /* skill */
+
+.tik{
+    
+    color: #16D887;
+}
 
 main {
     max-width: 1140px;
@@ -176,8 +208,8 @@ main {
     display: flex;
     gap: 311px;
     background: #151414;
-    width: 1600px;
-    height: 577px;
+    /* width: 1600px;
+    height: 577px; */
     padding-top: 130px;
     padding: 130px 230px;
     
@@ -215,9 +247,7 @@ main {
     margin-bottom: 32px;
 }
 
-.ancor{
 
-}
 
 .contact-title{
     font-weight: 600;
